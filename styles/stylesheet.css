@@ -1,0 +1,27 @@
+/* 
+Float Nav li elements left, add borders, make the links take up exactly the whole page
+List style is none
+*/
+* {box-sizing: border-box;}
+
+p { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+header h1 {
+  text-align: center;
+  color: mediumpurple;
+}
+
+header li {
+  width: 14.28%;
+  float: left;
+  border: 1px solid purple;
+  background-color: mediumpurple;
+  text-align: center;
+  list-style: none;
+  color: white;
+}
+
+aside {
+  clear: both;
+}
