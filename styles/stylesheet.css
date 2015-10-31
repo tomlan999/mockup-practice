@@ -4,7 +4,7 @@ List style is none
 */
 * {box-sizing: border-box;}
 
-p { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+p { font-family: sans-serif;
 }
 
 header h1 {
@@ -23,7 +23,6 @@ header li {
   text-align: center;
   list-style: none;
   color: white;
-  font-family: sans-serif;
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -38,4 +37,38 @@ header p {
 
 aside {
   clear: both;
+  float: left;
+  width: 20%;
+  background-color: pink;
 }
+
+aside nav {
+  padding-top: 5rem;
+  padding-bottom: 12rem;
+  background-color: #b5addb;
+}
+
+aside nav li {
+  padding: .8rem;
+  text-align: center;
+  list-style: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+article {
+  float: right;
+  width: 80%;
+  background-color: gainsboro;
+}
+
+footer {
+  clear: both;
+  background-color: red;
+}
+
+footer img {
+    background-color: green;
+}
+  
