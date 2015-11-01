@@ -28,7 +28,7 @@ header li {
 }
 
 li.border-right {
-  border-right: 4px solid purple;
+  border-right: 4px solid #534695;
 }
 
 header p {
@@ -85,5 +85,7 @@ footer {
 
 footer img {
     background-color: green;
+  height: 40px;
+  width: 40px;
 }
   
