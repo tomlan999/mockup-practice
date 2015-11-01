@@ -7,6 +7,14 @@ List style is none
 p { font-family: sans-serif;
 }
 
+/* Min-width on header to prevent wrapping */
+
+header {
+  min-width: 750px;
+}
+
+/* Style h1 header - color, alignment, font size, font family */
+
 header h1 {
   text-align: center;
   color: mediumpurple;
@@ -15,8 +23,11 @@ header h1 {
   font-family: sans-serif;
 }
 
+/* Float and size link boxes, style color, border, font, min-width to prevent wrapping */
+
 header li {
   width: 14.286%;
+  min-width: 92px;
   padding: .5rem;
   float: left;
   background-color: mediumpurple;
@@ -35,6 +46,8 @@ header p {
   height: 1.5rem;
 }
 
+/* Float aside, set height to match article */
+
 aside {
   clear: both;
   float: left;
@@ -43,10 +56,14 @@ aside {
   background-color: #b5addb;
 }
 
+/* Position nav contents in aside */
+
 aside nav {
-  padding-top: 5rem;
+  padding-top: 6rem;
   padding-bottom: 12rem;
 }
+
+/* Style text in aside */
 
 aside nav li {
   padding: .8rem;
@@ -57,6 +74,8 @@ aside nav li {
   font-weight: bold;
 }
 
+/* Float article, set height to match aside */
+
 article {
   float: right;
   width: 80%;
@@ -64,28 +83,59 @@ article {
   background-color: gainsboro;
 }
 
+/* Position image in article */
+
 article img {
   display: block;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Position text in article, set min-width to prevent wrapping */
 
 article p {
   padding-left: 7rem;
   padding-right: 7rem;
   padding-bottom: 3rem;
   text-align: center;
+  min-width: 725px;
 }
+
+/* Prevent footer from floating and wrapping around aside and article */
 
 footer {
   clear: both;
+  overflow: auto;
 }
 
+/* Position footer ul, set min-width to prevent wrapping */
+
+footer ul {
+  overflow: auto;
+  width: 25%;
+  min-width: 220px;
+  margin: auto;
+}
+
+/* Size footer images */
+
 footer img {
-    background-color: green;
   height: 40px;
   width: 40px;
 }
+
+/* Position and space footer images */
+
+footer li {
+  float: left;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+  
   
