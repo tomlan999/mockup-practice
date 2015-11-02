@@ -7,10 +7,10 @@ List style is none
 p { font-family: sans-serif;
 }
 
-/* Min-width on header to prevent wrapping */
+/* Min-width on header to limit wrapping */
 
 header {
-  min-width: 750px;
+  min-width: 950px;
 }
 
 /* Style h1 header - color, alignment, font size, font family */
