@@ -1,0 +1,142 @@
+/* 
+Float Nav li elements left, add borders, make the links take up exactly the whole page
+List style is none
+*/
+* {box-sizing: border-box;}
+
+p { font-family: sans-serif;
+}
+
+/* Min-width on header to prevent wrapping */
+
+header {
+  min-width: 750px;
+}
+
+/* Style h1 header - color, alignment, font size, font family */
+
+
+header h1 {
+  text-align: center;
+  color: mediumpurple;
+  font-size: 2rem;
+  margin: 1rem;
+  font-family: sans-serif;
+}
+
+/* Float and size link boxes, style color, border, font, min-width to prevent wrapping */
+
+header li {
+  width: 14.286%;
+  height: 65px;
+  min-width: 92px;
+  padding: 1rem;
+  float: left;
+  background-color: gold;
+  text-align: center;
+  list-style: none;
+  font-weight: bold;
+  
+}
+
+li.border-right {
+  border-right: 4px solid #534695;
+}
+
+/* Float aside, set height to match article */
+
+aside {
+  clear: both;
+  float: left;
+  width: 20%;
+  height: 600px;
+  background-color: #b5addb;
+}
+
+/* Position nav contents in aside */
+
+aside nav {
+  width: 50%;
+  height: inherit;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style list in aside and size images */
+
+aside nav li {
+  margin: 1rem;
+  list-style: none;
+  }
+
+aside img {
+  height: 70px;
+  width: 70px;
+}
+
+/* Float article, set height to match aside */
+
+article {
+  float: right;
+  width: 80%;
+  height: 600px;
+  background-color: gainsboro;
+}
+
+/* Position and size image in article */
+
+article img {
+  display: block;
+  width: 405px;
+  height: 280px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Position text in article, set min-width to prevent wrapping */
+
+article p {
+  padding-left: 7rem;
+  padding-right: 7rem;
+  text-align: center;
+  font-size: 2rem;
+  min-width: 725px;
+}
+
+/* Prevent footer from floating and wrapping around aside and article */
+
+footer {
+  clear: both;
+  overflow: auto;
+}
+
+/* Position footer ul, set min-width to prevent wrapping */
+
+footer ul {
+  overflow: auto;
+  width: 25%;
+  min-width: 220px;
+  margin: auto;
+}
+
+/* Size footer images */
+
+footer img {
+  height: 40px;
+  width: 40px;
+}
+
+/* Position and space footer images */
+
+footer li {
+  float: left;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+  
+  
